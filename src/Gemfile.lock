@@ -96,6 +96,7 @@ GEM
     parallel (1.21.0)
     parser (3.1.1.0)
       ast (~> 2.4.1)
+    pg (0.20.0)
     puma (3.9.1)
     racc (1.6.0)
     rack (2.2.3)
@@ -217,6 +218,7 @@ DEPENDENCIES
   jbuilder (= 2.6.4)
   jquery-rails (= 4.3.1)
   listen (= 3.1.5)
+  pg (= 0.20.0)
   puma (= 3.9.1)
   rails (= 5.1.6)
   rubocop
