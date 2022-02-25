@@ -1,0 +1,16 @@
+{
+	"name": "Rails Practice",
+	"dockerComposeFile": ["../docker-compose.yml"],
+	"service": "web",
+	"workspaceFolder": "/app",
+	"settings": {},
+	"extensions": [
+		"rebornix.ruby",
+		"castwide.solargraph",
+		"misogi.ruby-rubocop",
+		"hridoy.rails-snippets",
+		"kaiwood.endwise",
+	],
+	"overrideCommand": true,
+	"onCreateCommand": "echo 'source /usr/share/bash-completion/completions/git' >> ~/.bashrc"
+}
