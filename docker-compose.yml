@@ -3,7 +3,6 @@ version: '3'
 services:
   db:
     image: mysql:5.7
-    container_name: db
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYAPP_DATABASE_PASSWORD: password
@@ -14,7 +13,6 @@ services:
 
   web:
     build: .
-    container_name: web
     volumes:
       - .:/app
       - gem_data:/usr/local/bundle
