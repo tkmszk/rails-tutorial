@@ -19,7 +19,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
   end
 
   test 'form should post to signup_path' do
-    post signup_path
+    get signup_path
     assert_select 'form[action="/signup"]'
   end
 end
