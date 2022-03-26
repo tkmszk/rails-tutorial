@@ -1,1 +1,7 @@
-<%= @user.name %>, <%= @user.email %>, <%= @user.created_at %>, <%= @user.updated_at %>
+<ul>
+  <li> Name: <%= @user.name %> </li>
+  <li> Email: <%= @user.email %> </li>
+  <li> created_at: <%= @user.created_at %> </li>
+  <li> updated_at: <%= @user.updated_at %> </li>
+  <li> Time.now: <%= Time.now %> </li>
+</ul>
