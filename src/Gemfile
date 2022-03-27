@@ -5,6 +5,7 @@ ruby '2.5.9'
 
 gem 'bcrypt', '3.1.12'
 gem 'bootstrap-sass', '3.3.7'
+gem 'faker'
 gem 'jquery'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 gem 'puma', '~> 3.11'
