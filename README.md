@@ -1,4 +1,4 @@
-# Rails practice
+# Rails Tutorial
 
 ## 環境構築：VSCode (Dev Container)
 
